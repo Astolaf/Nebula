@@ -104,14 +104,14 @@
 			var/new_ckey = ckey(input(usr,"New admin's ckey","Admin ckey", null) as text|null)
 			if(!new_ckey)	return
 			if(new_ckey in admin_datums)
-				to_chat(usr, "<font color='red'>Error: Topic 'editrights': [new_ckey] is already an admin</font>")
+				to_chat(usr, SPAN_WARNING("Error: Topic 'editrights': [new_ckey] is already an admin"))
 				return
 			adm_ckey = new_ckey
 			task = "rank"
 		else if(task != "show")
 			adm_ckey = ckey(href_list["ckey"])
 			if(!adm_ckey)
-				to_chat(usr, "<font color='red'>Error: Topic 'editrights': No valid ckey</font>")
+				to_chat(usr, SPAN_WARNING("Error: Topic 'editrights': No valid ckey"))
 				return
 
 		var/datum/admins/D = admin_datums[adm_ckey]
@@ -143,7 +143,7 @@
 					if(config.admin_legacy_system)
 						new_rank = ckeyEx(new_rank)
 					if(!new_rank)
-						to_chat(usr, "<font color='red'>Error: Topic 'editrights': Invalid rank</font>")
+						to_chat(usr, SPAN_WARNING("Error: Topic 'editrights': Invalid rank"))
 						return
 					if(config.admin_legacy_system)
 						if(admin_ranks.len)
@@ -227,29 +227,14 @@
 
 		var/delmob = 0
 		switch(alert("Delete old mob?","Message","Yes","No","Cancel"))
-			if("Cancel")	return
-			if("Yes")		delmob = 1
+			if("Cancel")
+				return
+			if("Yes")
+				delmob = TRUE
 
-		log_and_message_admins("has used rudimentary transformation on [key_name_admin(M)]. Transforming to [href_list["simplemake"]]; deletemob=[delmob]")
-
-		switch(href_list["simplemake"])
-			if("observer")			M.change_mob_type( /mob/observer/ghost , null, null, delmob )
-			if("human")				M.change_mob_type( /mob/living/carbon/human , null, null, delmob, href_list["species"])
-			if("monkey")			M.change_mob_type( /mob/living/carbon/human/monkey , null, null, delmob )
-			if("robot")				M.change_mob_type( /mob/living/silicon/robot , null, null, delmob )
-			if("cat")				M.change_mob_type( /mob/living/simple_animal/cat , null, null, delmob )
-			if("runtime")			M.change_mob_type( /mob/living/simple_animal/cat/fluff/runtime , null, null, delmob )
-			if("corgi")				M.change_mob_type( /mob/living/simple_animal/corgi , null, null, delmob )
-			if("ian")				M.change_mob_type( /mob/living/simple_animal/corgi/Ian , null, null, delmob )
-			if("crab")				M.change_mob_type( /mob/living/simple_animal/crab , null, null, delmob )
-			if("coffee")			M.change_mob_type( /mob/living/simple_animal/crab/Coffee , null, null, delmob )
-			if("parrot")			M.change_mob_type( /mob/living/simple_animal/hostile/retaliate/parrot , null, null, delmob )
-			if("polyparrot")		M.change_mob_type( /mob/living/simple_animal/hostile/retaliate/parrot/Poly , null, null, delmob )
-			if("constructarmoured")	M.change_mob_type( /mob/living/simple_animal/construct/armoured , null, null, delmob )
-			if("constructbuilder")	M.change_mob_type( /mob/living/simple_animal/construct/builder , null, null, delmob )
-			if("constructwraith")	M.change_mob_type( /mob/living/simple_animal/construct/wraith , null, null, delmob )
-			if("shade")				M.change_mob_type( /mob/living/simple_animal/shade , null, null, delmob )
-
+		var/transform_key = replacetext(href_list["simplemake"], "_", " ")
+		if(M.try_rudimentary_transform(transform_key, delmob, href_list["species"]))
+			log_and_message_admins("has used rudimentary transformation on [key_name_admin(M)]. Transforming to [transform_key]; deletemob=[delmob]")
 
 	/////////////////////////////////////new ban stuff
 	else if(href_list["unbanf"])

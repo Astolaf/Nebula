@@ -53,14 +53,14 @@
 /obj/item/clothing/ring/reagent/initialize_reagents(populate = TRUE)
 	if(!reagents)
 		create_reagents(volume)
-	else 
+	else
 		reagents.maximum_volume = max(volume, reagents.maximum_volume)
 	. = ..()
 
 /obj/item/clothing/ring/reagent/equipped(var/mob/living/carbon/human/H)
 	..()
 	if(istype(H) && H.get_equipped_item(slot_gloves_str) == src)
-		to_chat(H, "<font color='blue'><b>You feel a prick as you slip on the ring.</b></font>")
+		to_chat(H, SPAN_DANGER("You feel a prick as you slip on the ring."))
 
 		if(reagents.total_volume)
 			if(H.reagents)
@@ -74,10 +74,6 @@
 	name = "silver ring"
 	desc = "A ring made from what appears to be silver."
 	origin_tech = "{'materials':2,'esoteric':5}"
-
-/obj/item/clothing/ring/reagent/Initialize(ml, material_key)
-	. = ..()
-	initialize_reagents()
 
 /obj/item/clothing/ring/reagent/sleepy/populate_reagents()
 	reagents.add_reagent(/decl/material/liquid/paralytics, 10)
