@@ -41,15 +41,15 @@
 
 
 	//#include "tradeship_antagonists.dm"
-	#include "rapture_areas.dm"
-	#include "rapture_departments.dm"
+	#include "icarus_areas.dm"
+	#include "icarus_departments.dm"
 	//#include "tradeship_documents.dm"
 	//#include "tradeship_jobs.dm"
 	//#include "tradeship_loadouts.dm"
 	//#include "tradeship_overmap.dm"
 	//#include "tradeship_overrides.dm"
 	//#include "tradeship_shuttles.dm"
-	#include "rapture_spawnpoints.dm"
+	#include "icarus_spawnpoints.dm"
 	//#include "tradeship_unit_testing.dm"
 	//#include "tradeship-0.dmm"
 	#include "p-0.dmm"
@@ -58,24 +58,24 @@
 
 
 	//#include "jobs/_goals.dm"
-	//#include "jobs/civilian.dm"
+	#include "jobs/civilian.dm"
 	//#include "jobs/command.dm"
 	#include "jobs/engineering.dm"
 	//#include "jobs/medical.dm"
 	//#include "jobs/science.dm"
 	//#include "jobs/synthetics.dm"
 
-/*
-	#include "outfits/_outfits.dm"
-	#include "outfits/command.dm"
+
+	//#include "outfits/_outfits.dm"
+	//#include "outfits/command.dm"
 	#include "outfits/engineering.dm"
-	#include "outfits/medical.dm"
-	#include "outfits/science.dm"
-*/
-	#define USING_MAP_DATUM /datum/map/rapture
+	//#include "outfits/medical.dm"
+	//#include "outfits/science.dm"
+
+	#define USING_MAP_DATUM /datum/map/icarus
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Rapture
+	#warn A map has already been included, ignoring Icarus
 
 #endif

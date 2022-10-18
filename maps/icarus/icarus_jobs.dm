@@ -1,12 +1,13 @@
-/datum/map/rapture
-	//default_job_type = /datum/job/tradeship_deckhand
-	//default_department_type = /decl/department/civilian
+/datum/map/icarus
+	default_job_type = /datum/job/assistant
+	default_department_type = /decl/department/civilian
 	default_law_type = /datum/ai_laws/corporate
 	id_hud_icons = 'maps/tradeship/hud.dmi'
 	allowed_jobs = list(
 		///datum/job/tradeship_captain,
 		///datum/job/tradeship_engineer/head,
-		/datum/job/rapture_engineer
+		/datum/job/icarus_engineer,
+		/datum/job/assistant
 	)
 /*
 /obj/machinery/suit_cycler/tradeship

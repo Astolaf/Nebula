@@ -1,18 +1,18 @@
-/datum/map/rapture
-	name = "Rapture"
-	full_name = "NTI Rapture (full_name)"
-	path = "rapture"
+/datum/map/icarus
+	name = "Icarus"
+	full_name = "NTI Icarus (full_name)"
+	path = "icarus"
 	ground_noun = "deck"
 
-	station_name  = "NTI Rapture (station_name)"
-	station_short = "Rapture"
+	station_name  = "NTI Icarus (station_name)"
+	station_short = "Icarus"
 
 	dock_name     = "NAS Crescent"
 	boss_name     = "NTI Central Command"
 	boss_short    = "Centcomm"
 	company_name  = "NanoTrasen Incorporated"
 	company_short = "NT"
-	lobby_screens = list('maps/rapture/lobby/hell.png')
+	lobby_screens = list('maps/icarus/lobby/hell.png')
 	overmap_ids = list(OVERMAP_ID_SPACE)
 	num_exoplanets = 2
 	welcome_sound = 'sound/effects/fastbeep.ogg'
@@ -29,17 +29,17 @@
 
 	lobby_tracks = list(/decl/music_track/chasing_time)
 
-/datum/map/rapture/get_map_info()
+/datum/map/icarus/get_map_info()
 	return "You're aboard the <b>[station_name],</b> a survey vessel affiliated with the NanoTrasen Incorporated. \
 	No meaningful authorities can claim the planets and resources in this uncharted sector, so their exploitation is entirely up to you - mine, poach and deforest all you want."
 /*
-/datum/map/rapture/create_trade_hubs()
-	new /datum/trade_hub/singleton/rapture
+/datum/map/icarus/create_trade_hubs()
+	new /datum/trade_hub/singleton/icarus
 
-/datum/trade_hub/singleton/rapture
-	name = "Rapture trade Network"
+/datum/trade_hub/singleton/icarus
+	name = "Icarus trade Network"
 
-/datum/trade_hub/singleton/rapture/get_initial_traders()
+/datum/trade_hub/singleton/icarus/get_initial_traders()
 	return list(
 		/datum/trader/xeno_shop,
 		/datum/trader/medical,
