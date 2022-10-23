@@ -46,4 +46,4 @@
 		/datum/trader/mining,
 		/datum/trader/books
 	)
-*/.
+*/

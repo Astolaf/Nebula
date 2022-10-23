@@ -43,7 +43,11 @@
 
 
 	//#include "tradeship_antagonists.dm"
-	#include "icarus_areas.dm"
+	#include "areas/icarus_p1.dm"
+	#include "areas/icarus_p2.dm"
+	#include "areas/icarus_p3.dm"
+	#include "areas/icarus_shuttles.dm"
+
 	#include "icarus_departments.dm"
 	//#include "tradeship_documents.dm"
 	//#include "tradeship_jobs.dm"
@@ -54,9 +58,9 @@
 	#include "icarus_spawnpoints.dm"
 	//#include "tradeship_unit_testing.dm"
 	//#include "tradeship-0.dmm"
-	#include "p-0.dmm"
 	#include "p-1.dmm"
 	#include "p-2.dmm"
+	#include "p-3.dmm"
 
 
 	//#include "jobs/_goals.dm"
