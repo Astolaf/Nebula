@@ -9,14 +9,16 @@
 "aF" = (/obj/structure/dispenser/oxygen,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "aK" = (/obj/machinery/atmospherics/binary/pump/high_power,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "aR" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_room)
+"aT" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "aV" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/reinforced/hydrogen,/area/ship/icarus/engineering/atmos)
 "aW" = (/obj/structure/table/steel,/obj/machinery/recharger,/obj/item/storage/toolbox/electrical,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "bb" = (/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/gravitaional_generator)
 "bc" = (/obj/structure/table/reinforced,/obj/machinery/door/window/brigdoor/southright{dir = 4; name = "Supply Desk"; req_access = newlist()},/obj/machinery/door/window/southleft{autoset_access = 0; dir = 8; name = "Supply Desk"},/turf/simulated/floor/tiled,/area/space)
-"bd" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"bd" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/obj/effect/engine_setup/pump_max,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "be" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "bg" = (/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "bi" = (/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 9},/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_room)
+"bj" = (/obj/machinery/atmospherics/binary/pump/high_power,/obj/effect/engine_setup/pump_max,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "bs" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "bx" = (/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "bF" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
@@ -45,6 +47,7 @@
 "dd" = (/turf/simulated/floor/tiled/freezer,/area/space)
 "dj" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "dm" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
+"dr" = (/obj/machinery/atmospherics/pipe/zpipe/up/supply{dir = 1},/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{dir = 1},/turf/simulated/floor/plating,/area/space)
 "du" = (/obj/machinery/computer/modular/preset/dock{icon_state = "console"; dir = 4},/turf/simulated/floor/tiled,/area/space)
 "dx" = (/obj/machinery/atmospherics/unary/vent_pump/engine{dir = 8; external_pressure_bound = 100; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "cooling_out"; initialize_directions = 1; pump_direction = 0; use_power = 1},/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
 "dy" = (/obj/effect/floor_decal/techfloor/orange/corner{dir = 8},/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/obj/effect/floor_decal/techfloor/orange{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
@@ -53,8 +56,10 @@
 "dP" = (/obj/structure/closet/secure_closet/engineering_personal,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/alarm,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "dR" = (/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "dX" = (/turf/simulated/floor/reinforced/carbon_dioxide,/area/ship/icarus/engineering/atmos)
+"dZ" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_smes)
+"eb" = (/obj/machinery/fabricator/hacked,/turf/simulated/floor/tiled/dark,/area/space)
 "eg" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"ei" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/effect/floor_decal/industrial/outline/orange,/obj/structure/railing/mapped{dir = 1},/obj/effect/engine_setup/empty_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"ei" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/effect/floor_decal/industrial/outline/orange,/obj/effect/engine_setup/empty_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "ej" = (/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 10},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "en" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "eo" = (/obj/effect/floor_decal/industrial/warning/fulltile,/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/engine_room)
@@ -62,10 +67,11 @@
 "et" = (/turf/simulated/floor/reinforced/n20,/area/ship/icarus/engineering/atmos)
 "eu" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_monitoring)
 "eD" = (/obj/machinery/space_heater,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"eE" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/plating,/area/space)
 "eF" = (/turf/simulated/floor/tiled/airless,/area/space)
 "eI" = (/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/cap/hidden,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "eO" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable{icon_state = "0-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
-"fe" = (/obj/machinery/atmospherics/omni/filter{tag_east = 2; tag_west = 5; tag_north = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"fe" = (/obj/machinery/atmospherics/omni/filter{tag_east = 5; tag_south = 2; tag_west = 1; tag_north = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "fj" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/operation_storage)
 "ft" = (/obj/effect/wallframe_spawn/no_grille,/turf/simulated/floor/plating,/area/space)
 "fu" = (/obj/structure/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/airlock_electronics,/obj/item/stock_parts/circuitboard/airlock_electronics,/obj/item/stock_parts/circuitboard/airlock_electronics,/obj/item/stock_parts/circuitboard/airlock_electronics,/obj/item/stock_parts/circuitboard/airlock_electronics,/obj/item/stock_parts/circuitboard/apc,/obj/item/stock_parts/circuitboard/apc,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
@@ -83,6 +89,7 @@
 "gs" = (/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "gD" = (/turf/simulated/floor/reinforced/airless,/area/space)
 "gE" = (/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
+"gF" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/plating,/area/space)
 "gH" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "gO" = (/obj/machinery/atmospherics/omni/filter{tag_north = 1; tag_south = 2; tag_east = 5},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "gP" = (/turf/simulated/floor/tiled/dark,/area/space)
@@ -98,16 +105,20 @@
 "hq" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "hr" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "hs" = (/obj/machinery/door/firedoor,/obj/machinery/door/blast/shutters{density = 0; dir = 4; icon_state = "shutter0"; id_tag = "engineeringdeskshutters"; name = "Engineering Desk Shutters"; opacity = 0},/obj/effect/wallframe_spawn/reinforced/no_grille,/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/turf/simulated/floor/plating,/area/ship/icarus/engineering/foyer)
+"hu" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "hw" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
+"hx" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "hD" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "hF" = (/obj/effect/wallframe_spawn/reinforced_borosilicate,/turf/simulated/floor/plating,/area/ship/icarus/engineering/superluminal_shunt)
-"hJ" = (/obj/machinery/atmospherics/binary/pump/high_power,/obj/effect/engine_setup/pump_max,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"hJ" = (/obj/structure/rack,/turf/simulated/floor/plating,/area/space)
+"hK" = (/obj/machinery/atmospherics/omni/filter{tag_east = 2; tag_west = 5; tag_north = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "hQ" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/window/reinforced{dir = 4},/obj/structure/closet/secure_closet/engineering_electrical,/obj/machinery/firealarm,/obj/machinery/door/firedoor/border/autoset{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "hR" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "mix_out"; internal_pressure_bound = 2000; internal_pressure_bound_default = 2000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
 "hY" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "hZ" = (/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "id" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
 "ig" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"ij" = (/obj/structure/bed/chair/padded/yellow{dir = 8; icon_state = "chair_preview"},/turf/simulated/floor/tiled/dark,/area/space)
 "ip" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "ir" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "iw" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
@@ -115,7 +126,7 @@
 "iz" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/operation_storage)
 "iE" = (/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "iJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
-"iK" = (/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/structure/railing/mapped{dir = 8},/obj/effect/engine_setup/coolant_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"iK" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/space)
 "iM" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/plating,/area/space)
 "iS" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "iT" = (/obj/machinery/floodlight,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
@@ -135,6 +146,7 @@
 "jU" = (/obj/effect/floor_decal/techfloor{dir = 8},/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "jX" = (/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/operation_storage)
 "ka" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
+"ke" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/techmaint,/area/space)
 "kk" = (/obj/effect/floor_decal/techfloor/orange{dir = 1},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
 "kF" = (/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "kH" = (/obj/structure/table/steel,/obj/machinery/recharger,/obj/item/book/manual/engineering_construction,/obj/item/book/manual/engineering_guide,/obj/item/book/manual/engineering_hacking,/obj/item/book/manual/atmospipes,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
@@ -158,7 +170,7 @@
 "lM" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/secure_storage)
 "lO" = (/obj/machinery/alarm{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "lP" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"lQ" = (/obj/machinery/door/airlock/mining{id_tag = "qmdoor-hallway"; name = "Quartermaster"; req_access = newlist()},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
+"lQ" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "lR" = (/obj/machinery/atmospherics/pipe/cap/hidden,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "lU" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_room)
 "lV" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/secure_storage)
@@ -176,7 +188,8 @@
 "mK" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "mM" = (/obj/machinery/atmospherics/unary/outlet_injector{icon_state = "map_injector"; id_tag = "mix_in"; use_power = 1},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
 "mO" = (/obj/structure/bed/chair/padded/yellow{dir = 1; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
-"mQ" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 4},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"mQ" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 4},/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"mR" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "mV" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1; icon_state = "map_injector"; id_tag = "co2_in"; pixel_y = 1; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/ship/icarus/engineering/atmos)
 "nc" = (/obj/effect/wallframe_spawn/reinforced_borosilicate,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "nd" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
@@ -184,7 +197,7 @@
 "nk" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "no" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "nq" = (/obj/effect/wallframe_spawn/no_grille,/turf/simulated/floor/plating,/area/ship/icarus/engineering/operation_storage)
-"nr" = (/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/obj/structure/cable/yellow{icon_state = "0-4"},/obj/machinery/generator,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"nr" = (/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/machinery/generator{anchored = 1},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "ny" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "nz" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "nA" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
@@ -200,23 +213,28 @@
 "ok" = (/obj/structure/table/steel,/obj/item/rcd_ammo,/obj/item/rcd_ammo,/obj/item/rcd_ammo,/obj/item/rcd_ammo,/obj/item/rcd_ammo,/obj/item/rcd_ammo,/obj/item/rcd,/obj/machinery/light{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 5},/obj/effect/floor_decal/corner/yellow/border{dir = 5},/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "om" = (/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "oq" = (/obj/machinery/atmospherics/unary/outlet_injector{icon_state = "map_injector"; id_tag = "air_in"; use_power = 1},/turf/simulated/floor/reinforced/airmix,/area/ship/icarus/engineering/atmos)
-"os" = (/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_monitoring)
+"os" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_monitoring)
 "ou" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/shunt_drive_monitoring)
 "oD" = (/obj/effect/floor_decal/techfloor{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "oI" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/shunt_drive_monitoring)
 "oQ" = (/obj/item/paper_bin,/obj/item/pen{pixel_x = 4; pixel_y = 4},/obj/item/pen/red{pixel_x = 2; pixel_y = 6},/obj/item/pen{pixel_x = 4; pixel_y = 4},/obj/item/sticky_pad/random,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/monotile,/area/space)
 "oR" = (/turf/simulated/floor/grass,/area/space)
+"oS" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/obj/effect/engine_setup/pump_max,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "oT" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "oV" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 1},/turf/simulated/floor/reinforced/airless,/area/space)
 "oW" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/locker_room)
+"pj" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/dark,/area/space)
 "pk" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "pn" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "pp" = (/obj/machinery/atmospherics/binary/pump{dir = 4; name = "Mixing to Port"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "pq" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{dir = 8},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "pt" = (/mob/living/simple_animal/aquatic/fish/grump{name = "Titus"},/turf/simulated/floor/plating,/area/space)
 "px" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engineering_eva)
+"pB" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_monitoring)
+"pC" = (/obj/structure/rack,/turf/simulated/floor/tiled/dark,/area/space)
 "pF" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "pG" = (/obj/structure/stairs/long{dir = 1},/turf/simulated/floor/tiled,/area/space)
+"pI" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/blue{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "pK" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "pP" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "pS" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -225,6 +243,7 @@
 "pY" = (/obj/machinery/space_heater,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "qg" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "qj" = (/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"ql" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "qn" = (/obj/machinery/shieldgen,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "qw" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "qG" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/green,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
@@ -233,11 +252,12 @@
 "qK" = (/obj/machinery/atmospherics/binary/pump,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "qZ" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "rb" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
+"rc" = (/obj/structure/table/steel,/turf/simulated/floor/tiled/dark,/area/space)
 "rh" = (/obj/machinery/vending/engineering,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light{dir = 1},/obj/item/radio/intercom/broadcasting,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "rk" = (/obj/structure/table/steel,/obj/structure/emergency_dispenser,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "rm" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "rp" = (/obj/effect/floor_decal/techfloor{dir = 4},/obj/machinery/atmospherics/pipe/manifold4w/visible/green,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
-"ru" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"ru" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "rB" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/turf/simulated/floor/plating,/area/space)
 "rG" = (/obj/machinery/atmospherics/pipe/cap/visible{dir = 8},/turf/simulated/floor/reinforced/hydrogen,/area/ship/icarus/engineering/atmos)
 "rI" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
@@ -249,7 +269,7 @@
 "sb" = (/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "sc" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "sj" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
-"sl" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 8},/obj/structure/railing/mapped{dir = 8},/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"sl" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "sm" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/secure_storage)
 "sn" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/superluminal_shunt)
 "so" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
@@ -271,6 +291,7 @@
 "tl" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/foyer)
 "tm" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/door/window/brigdoor/northleft{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "ts" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"ty" = (/obj/effect/floor_decal/industrial/warning{dir = 10},/turf/simulated/floor/plating,/area/space)
 "tI" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "tO" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "tP" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/tech_storage)
@@ -288,6 +309,7 @@
 "uZ" = (/turf/simulated/floor/wood,/area/space)
 "vb" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "vc" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
+"vj" = (/obj/machinery/door/blast/regular/escape_pod{id_tag = "escape_pod_4"},/turf/simulated/floor/tiled,/area/space)
 "vk" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 5},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "vn" = (/obj/machinery/suit_cycler/engineering/prepared,/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "vo" = (/obj/structure/table/steel,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
@@ -296,6 +318,7 @@
 "vF" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "vL" = (/obj/machinery/firealarm,/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "vM" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 9},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"vN" = (/obj/machinery/suit_cycler/engineering,/turf/simulated/floor/plating,/area/space)
 "vX" = (/obj/machinery/portable_atmospherics/canister,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "vY" = (/obj/machinery/atmospherics/unary/heat_exchanger{dir = 8},/obj/structure/railing/mapped{dir = 8},/obj/structure/railing/mapped{dir = 1},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/engine_room)
 "vZ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -307,15 +330,16 @@
 "ws" = (/turf/simulated/floor/wood/bamboo,/area/space)
 "wt" = (/obj/machinery/mass_driver{dir = 4; id_tag = "enginecore"},/obj/machinery/power/supermatter,/obj/effect/engine_setup/core,/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/simulated/floor/greengrid/airless,/area/ship/icarus/engineering/engine_room)
 "wx" = (/obj/effect/floor_decal/techfloor/orange/corner{dir = 1},/obj/effect/floor_decal/techfloor/orange/corner,/obj/effect/floor_decal/industrial/warning/corner{dir = 4; icon_state = "warningcorner"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
+"wz" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/turf/simulated/floor/tiled/dark,/area/space)
 "wC" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/power/apc{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-4"},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "wF" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/secure_storage)
 "wI" = (/obj/structure/table/steel_reinforced,/obj/item/paper_bin,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "wL" = (/obj/machinery/atmospherics/tvalve/mirrored/buildable{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "wM" = (/obj/effect/floor_decal/techfloor,/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "wO" = (/obj/structure/bed/chair/padded/yellow{dir = 8; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
-"wP" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/obj/structure/cable,/obj/machinery/power/apc/super/critical{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"wP" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/obj/structure/cable,/obj/machinery/power/apc/super/critical{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "xd" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"xf" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 8},/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"xf" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable/yellow{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "xl" = (/obj/effect/floor_decal/techfloor/orange{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
 "xn" = (/obj/structure/closet/secure_closet/engineering_welding,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "xt" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
@@ -336,6 +360,7 @@
 "yl" = (/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "ym" = (/obj/structure/table/steel,/obj/machinery/photocopier/faxmachine{department = "CE"},/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "yn" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/obj/machinery/papershredder,/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
+"yq" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "ys" = (/obj/machinery/light/spot{dir = 8},/obj/structure/table/steel,/obj/item/tank/jetpack,/obj/item/book/manual/atmospipes,/obj/item/tank/emergency/oxygen/double,/obj/structure/window/reinforced,/obj/machinery/door/firedoor/border/autoset,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "yt" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "yv" = (/turf/simulated/floor/plating,/area/space)
@@ -343,6 +368,7 @@
 "yy" = (/obj/machinery/atmospherics/valve/digital{name = "TEG bypass valve"},/obj/effect/floor_decal/industrial/warning/fulltile,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/engine_room)
 "yB" = (/obj/structure/table/steel,/obj/item/storage/toolbox/mechanical,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "yD" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
+"yF" = (/obj/structure/table/steel,/obj/structure/cable/blue{icon_state = "0-4"},/obj/structure/cable/blue{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "yM" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/engineering_eva)
 "yR" = (/turf/simulated/floor/tiled,/area/space)
 "yY" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8; icon_state = "map_injector"; id_tag = "h_in"; pixel_y = 1; use_power = 1},/turf/simulated/floor/reinforced/hydrogen,/area/ship/icarus/engineering/atmos)
@@ -354,29 +380,31 @@
 "zx" = (/turf/simulated/wall/prepainted,/area/ship/icarus/crew_quarters/heads/office/ce)
 "zy" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 4},/obj/structure/lattice,/turf/simulated/floor/reinforced/airless,/area/space)
 "zz" = (/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
-"zM" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/turf/simulated/floor/plating,/area/space)
+"zM" = (/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 9},/turf/simulated/floor/plating,/area/space)
 "zO" = (/obj/structure/bed/chair/rounded/brown{dir = 4},/turf/simulated/floor/tiled,/area/space)
 "zP" = (/obj/machinery/fabricator/pipe{anchored = 1},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "zQ" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/workshop)
 "zV" = (/obj/machinery/light{dir = 1},/obj/structure/closet/firecloset,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "zX" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/plating,/area/space)
+"zY" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "Aa" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "Ad" = (/obj/machinery/ftl_shunt/fuel_port,/obj/effect/floor_decal/industrial/outline/red,/obj/machinery/light/small{dir = 4; icon_state = "bulb1"},/turf/simulated/floor/reinforced,/area/ship/icarus/engineering/superluminal_shunt)
 "Am" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "An" = (/obj/machinery/suit_cycler/engineering/prepared,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "Ao" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "Aq" = (/obj/effect/wallframe_spawn/reinforced_borosilicate,/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
-"Ar" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 4},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"Ar" = (/obj/machinery/fabricator/robotics/filled,/turf/simulated/floor/tiled/dark,/area/space)
 "Au" = (/obj/machinery/door/blast/regular{id_tag = "SupermatterPort"; name = "Reactor Blast Door"},/obj/effect/wallframe_spawn/reinforced_borosilicate,/turf/simulated/floor/reinforced/airmix,/area/ship/icarus/engineering/engine_room)
 "Az" = (/obj/machinery/atmospherics/omni/filter{tag_south = 1; tag_north = 2; tag_east = 7},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "AC" = (/obj/machinery/alarm,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "AL" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/door/airlock/hatch/autoname/engineering,/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
+"AO" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable/blue{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "AQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/atmos)
 "AR" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "AS" = (/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 5},/turf/simulated/floor/plating,/area/space)
 "AU" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "Bb" = (/obj/abstract/level_data/main_level,/turf/space,/area/space)
-"Bc" = (/obj/structure/cable/yellow{icon_state = "0-4"},/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/obj/machinery/generator,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"Bc" = (/turf/simulated/floor/tiled/techmaint,/area/space)
 "Be" = (/obj/structure/table/steel_reinforced,/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
 "Bf" = (/obj/effect/floor_decal/industrial/warning{dir = 1; icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
 "Bj" = (/turf/space,/area/space)
@@ -384,6 +412,7 @@
 "Bn" = (/obj/machinery/atmospherics/binary/pump{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Bp" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "Bq" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
+"Br" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Bu" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/breaker_chamber)
 "Bw" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "BC" = (/turf/simulated/floor/airless,/area/space)
@@ -393,6 +422,7 @@
 "BU" = (/obj/effect/wallframe_spawn/reinforced_borosilicate,/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/plating,/area/ship/icarus/engineering/atmos)
 "BZ" = (/obj/machinery/power/smes/buildable/max_cap_in_out,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "Cg" = (/turf/simulated/floor/tiled/white/monotile,/area/space)
+"Cl" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/simulated/floor/plating,/area/space)
 "Cm" = (/obj/machinery/atmospherics/tvalve/mirrored/bypass,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Cp" = (/obj/structure/table/steel_reinforced,/obj/item/folder/yellow,/obj/structure/cable/green,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "Cr" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
@@ -405,19 +435,20 @@
 "CJ" = (/obj/structure/sign/warning/nosmoking_1{dir = 8; pixel_x = 32},/obj/structure/table/steel,/obj/machinery/cell_charger,/obj/random/powercell,/obj/random/powercell,/obj/item/cell/high,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "CN" = (/turf/simulated/floor/tiled/steel_grid,/area/space)
 "CQ" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_smes)
+"CT" = (/obj/machinery/atmospherics/valve/shutoff/buildable,/turf/simulated/floor/plating,/area/space)
 "CW" = (/obj/machinery/power/apc{dir = 1},/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/secure_closet/atmos_personal,/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos/storage)
 "CX" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "CY" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "De" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "Ds" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"DA" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/atmospherics/portables_connector{icon_state = "map_connector"; dir = 4},/obj/structure/railing/mapped{dir = 4},/obj/effect/engine_setup/coolant_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"DA" = (/obj/structure/table/steel,/obj/structure/cable/blue{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "DI" = (/obj/abstract/landmark/latejoin/cryo,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "DJ" = (/turf/simulated/floor/plating,/area/ship/icarus/engineering/shield_generator)
 "DM" = (/obj/machinery/light,/turf/simulated/floor/plating,/area/ship/icarus/engineering/shield_generator)
 "DO" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "DR" = (/obj/structure/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stack/material/rods{amount = 50},/obj/item/stack/material/rods{amount = 50},/obj/item/stack/material/rods{amount = 50},/obj/item/stack/material/rods{amount = 50},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "DX" = (/obj/machinery/door/blast/regular{dir = 4; id_tag = "SupermatterPort"; name = "Reactor Blast Door"},/obj/effect/wallframe_spawn/reinforced_borosilicate,/turf/simulated/floor/reinforced/airmix,/area/ship/icarus/engineering/engine_room)
-"DY" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_room)
+"DY" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/wall/r_wall/hull,/area/ship/icarus/engineering/engine_room)
 "DZ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "Eb" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Eg" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -437,12 +468,12 @@
 "Fv" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Fx" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Fz" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"FI" = (/obj/machinery/door/firedoor,/obj/effect/wallframe_spawn/reinforced/hull,/turf/simulated/floor/plating,/area/space)
 "FM" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "FV" = (/turf/simulated/floor/crystal,/area/space)
 "FW" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable{icon_state = "0-2"},/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/obj/structure/closet/secure_closet/engineering_chief,/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "Gb" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Gd" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
-"Gk" = (/obj/machinery/atmospherics/omni/filter{tag_east = 5; tag_south = 2; tag_west = 1; tag_north = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Go" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/breaker_chamber)
 "Gx" = (/obj/machinery/button/toggle/valve{id_tag = "fuelmode"; name = "fuel mode control"; pixel_x = 6; pixel_y = -26},/obj/machinery/button/ignition{id_tag = "engines"; pixel_x = -6; pixel_y = -26},/obj/machinery/computer/ship/engines{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "Gy" = (/obj/machinery/firealarm,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
@@ -454,19 +485,22 @@
 "GT" = (/mob/living/simple_animal/aquatic/fish{name = "Marry"},/turf/simulated/floor/plating,/area/space)
 "GV" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable{d2 = 2; icon_state = "0-4"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/shield_generator)
 "GX" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"GY" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"GY" = (/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "Ha" = (/turf/simulated/wall,/area/ship/icarus/engineering/engine_room)
 "Hb" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/obj/machinery/power/apc{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Hj" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Hk" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/tech_storage)
 "Hp" = (/obj/machinery/air_sensor{id_tag = "air_sensor"},/turf/simulated/floor/reinforced/airmix,/area/ship/icarus/engineering/atmos)
+"Hw" = (/obj/effect/wallframe_spawn/reinforced/hull,/turf/simulated/floor/plating,/area/space)
 "HC" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/workshop)
 "HD" = (/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "HJ" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "HM" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
+"HR" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "Ib" = (/obj/machinery/meter,/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Ik" = (/obj/effect/floor_decal/corner_techfloor_grid{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Im" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"Ip" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "It" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/gravitaional_generator)
 "Iv" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/firealarm{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Iw" = (/obj/structure/closet/secure_closet/engineering_personal,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
@@ -474,20 +508,25 @@
 "IE" = (/obj/machinery/door/airlock/mining{id_tag = "qmdoor-hallway"; name = "Quartermaster"; req_access = newlist()},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "IM" = (/obj/machinery/atmospherics/unary/freezer{dir = 8},/obj/effect/floor_decal/techfloor{dir = 1},/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos)
 "IN" = (/turf/simulated/floor/carpet/orange,/area/space)
+"IP" = (/obj/machinery/fabricator/industrial,/turf/simulated/floor/tiled/dark,/area/space)
 "IU" = (/obj/machinery/alarm,/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
+"IZ" = (/obj/random/closet,/turf/simulated/floor/tiled/dark,/area/space)
+"Jg" = (/obj/machinery/atmospherics/pipe/manifold/visible/supply{dir = 1},/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{dir = 1},/turf/simulated/floor/plating,/area/space)
 "Ji" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Jj" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "Jm" = (/turf/simulated/floor/carpet/green,/area/space)
 "Jo" = (/obj/machinery/suit_cycler/engineering/prepared,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "Jp" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/gravitaional_generator)
 "Js" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "o2_out"; internal_pressure_bound = 2000; internal_pressure_bound_default = 2000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1; dir = 1},/turf/simulated/floor/reinforced/oxygen,/area/ship/icarus/engineering/atmos)
-"JF" = (/obj/machinery/atmospherics/pipe/manifold/hidden/black,/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_room)
+"JA" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
+"JF" = (/obj/machinery/atmospherics/pipe/manifold/hidden/black,/turf/simulated/wall/r_wall/hull,/area/ship/icarus/engineering/engine_room)
 "JH" = (/obj/machinery/suit_cycler/engineering/prepared,/obj/machinery/light{dir = 1},/obj/machinery/firealarm,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "JM" = (/obj/machinery/firealarm{dir = 8},/turf/simulated/floor/plating,/area/ship/icarus/engineering/shield_generator)
 "JQ" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "JU" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled,/area/space)
+"JY" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/space)
 "Ka" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8; icon_state = "map_injector"; id_tag = "cooling_in"; name = "Coolant Injector"; power_rating = 30000; use_power = 1; volume_rate = 700},/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 1},/turf/simulated/floor/reinforced/airless,/area/ship/icarus/engineering/engine_room)
-"Kb" = (/obj/structure/cable{icon_state = "0-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_monitoring)
+"Kb" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_monitoring)
 "Kf" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "Kg" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/techfloor/orange{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
 "Kh" = (/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
@@ -514,6 +553,7 @@
 "LG" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "LH" = (/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_room)
 "LL" = (/turf/simulated/open,/area/space)
+"LU" = (/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/effect/engine_setup/coolant_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "LX" = (/obj/machinery/suit_cycler/engineering/prepared,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "Mc" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "Md" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/shield_generator)
@@ -541,10 +581,12 @@
 "Ns" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/sign/warning/mail_delivery{pixel_y = 32},/obj/machinery/camera/network/engineering{c_tag = "Engineering - Equipment"; dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "Nt" = (/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 4},/turf/simulated/floor/plating,/area/space)
 "Nu" = (/obj/machinery/light,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
+"Nv" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/plating,/area/space)
 "NC" = (/obj/machinery/shieldwallgen,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "NF" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "NH" = (/obj/structure/table/steel,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "NJ" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"NM" = (/obj/effect/floor_decal/industrial/warning{dir = 6},/turf/simulated/floor/plating,/area/space)
 "NU" = (/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "NW" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/secure_storage)
 "NY" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -554,6 +596,7 @@
 "OC" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "OG" = (/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
 "OL" = (/obj/machinery/atmospherics/unary/heater{dir = 8},/obj/effect/floor_decal/techfloor{dir = 1},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/atmos)
+"OT" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{icon_state = "0-2"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "Pa" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 8},/obj/machinery/computer/air_control{dir = 1; input_tag = "n2o_in"; name = "nitrous oxide control computer"; output_tag = "n2o_out"; sensor_name = "Nitrous Oxide Supply"; sensor_tag = "n2o_sensor"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Pb" = (/turf/simulated/floor/blackgrid,/area/space)
 "Pd" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
@@ -561,13 +604,14 @@
 "Pj" = (/obj/effect/wallframe_spawn/reinforced_borosilicate,/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/ship/icarus/engineering/atmos)
 "Pm" = (/obj/machinery/ftl_shunt/fuel_port,/obj/effect/floor_decal/industrial/outline/red,/turf/simulated/floor/reinforced,/area/ship/icarus/engineering/superluminal_shunt)
 "Ps" = (/obj/machinery/air_sensor{id_tag = "o2_sensor"},/turf/simulated/floor/reinforced/oxygen,/area/ship/icarus/engineering/atmos)
+"Pt" = (/obj/machinery/portable_atmospherics/canister/hydrogen,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Pv" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
 "Px" = (/obj/structure/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stack/material/reinforced/mapped/fiberglass/fifty,/obj/item/stack/material/reinforced/mapped/fiberglass/fifty,/obj/item/stack/material/reinforced/mapped/fiberglass/fifty,/obj/item/stack/material/pane/mapped/glass/fifty,/obj/item/stack/material/pane/mapped/glass/fifty,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/foyer)
 "PB" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/gravitaional_generator)
 "PD" = (/turf/simulated/floor/tiled/monotile,/area/space)
+"PE" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "PK" = (/turf/simulated/floor/glass,/area/space)
 "PQ" = (/obj/machinery/firealarm,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
-"PU" = (/obj/machinery/atmospherics/omni/filter{tag_east = 5; tag_south = 1; tag_west = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "PW" = (/obj/machinery/atmospherics/omni/mixer{tag_east = 2; tag_north = 1; tag_south = 1; tag_south_con = 0.80; tag_north_con = 0.20},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "PZ" = (/obj/machinery/shieldwallgen,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "Qe" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
@@ -579,6 +623,7 @@
 "Qq" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Qu" = (/obj/machinery/air_sensor{id_tag = "h_sensor"},/turf/simulated/floor/reinforced/hydrogen,/area/ship/icarus/engineering/atmos)
 "Qw" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
+"Qx" = (/obj/machinery/door/blast/regular/escape_pod{id_tag = "escape_pod_4"},/turf/simulated/floor/plating,/area/space)
 "Qy" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
 "QC" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/atmos)
 "QD" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
@@ -592,16 +637,20 @@
 "Rj" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8; level = 2},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Rn" = (/obj/machinery/atmospherics/omni/filter{tag_east = 2; tag_west = 1; tag_south = 5},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Rq" = (/obj/machinery/door/airlock/atmos,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"Rr" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/emitter/anchored{dir = 4},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Ry" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
+"Rz" = (/obj/structure/cable/blue{icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "RB" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "air_out"; internal_pressure_bound = 2000; internal_pressure_bound_default = 2000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/airmix,/area/ship/icarus/engineering/atmos)
-"RD" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_room)
+"RD" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/wall/r_wall/hull,/area/ship/icarus/engineering/engine_room)
 "RG" = (/obj/machinery/power/apc,/obj/structure/cable,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "RJ" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/obj/machinery/computer/air_control{input_tag = "mix_in"; name = "Carbon Dioxide Supply Control"; output_tag = "mix_out"; sensor_name = "Gas mix Supply"; sensor_tag = "mix_sensor"; dir = 4},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "RN" = (/obj/machinery/firealarm,/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "RQ" = (/obj/machinery/door/airlock/atmos,/turf/simulated/floor/plating,/area/ship/icarus/engineering/atmos)
 "RV" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"RY" = (/obj/machinery/atmospherics/valve/digital/open,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Sc" = (/turf/simulated/wall/r_wall,/area/ship/icarus/engineering/engine_smes)
 "Si" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"Sl" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "Sp" = (/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Sq" = (/obj/machinery/atmospherics/omni/filter{tag_east = 1; tag_north = 4; tag_west = 2},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Sr" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
@@ -631,6 +680,7 @@
 "TQ" = (/turf/simulated/floor/carpet/red,/area/space)
 "TU" = (/turf/simulated/wall/r_wall/hull,/area/ship/icarus/engineering/engine_room)
 "TV" = (/obj/structure/table/steel,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
+"Uf" = (/obj/effect/wallframe_spawn/reinforced/hull,/turf/simulated/floor/reinforced/airless,/area/space)
 "Ui" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/wood/walnut,/area/ship/icarus/engineering/break_room)
 "Ul" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/operation_storage)
 "Un" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
@@ -650,6 +700,7 @@
 "Vl" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/reinforced/airless,/area/space)
 "Vr" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
 "Vs" = (/obj/machinery/computer/air_control/supermatter_core{dir = 8; input_tag = "cooling_in"; name = "Engine Cooling Control"; output_tag = "cooling_out"; pressure_setting = 100; sensor_name = "Engine Core"; sensor_tag = "engine_sensor"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engine_monitoring)
+"Vt" = (/obj/machinery/power/smes/buildable,/obj/structure/cable/blue{icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "VC" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
 "VH" = (/obj/structure/closet/secure_closet/engineering_personal,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/locker_room)
 "VK" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -670,17 +721,19 @@
 "WG" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/ship/icarus/engineering/break_room)
 "WI" = (/obj/structure/stairs/long{dir = 4},/turf/simulated/floor/tiled,/area/space)
 "WK" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/obj/item/stack/material/puck/mapped/uranium/fifteen,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
+"WM" = (/obj/machinery/power/smes/buildable,/obj/structure/cable{d2 = 2; icon_state = "0-4"},/obj/effect/engine_setup/smes,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "WP" = (/turf/exterior/sand,/area/space)
 "WQ" = (/obj/machinery/floodlight,/turf/simulated/floor/tiled/white,/area/space)
 "WR" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/hallway)
 "WS" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "WT" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/tech_storage)
 "WZ" = (/obj/machinery/atmospherics/omni/filter{tag_east = 2; tag_south = 3; tag_west = 1},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"Xd" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Xf" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Xo" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "Xp" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/techfloor/orange,/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
 "Xq" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
-"Xs" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
+"Xs" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_smes)
 "Xt" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/shield_generator)
 "Xx" = (/obj/machinery/atmospherics/pipe/simple/visible/supply,/turf/simulated/floor/plating,/area/space)
 "XA" = (/obj/machinery/atmospherics/pipe/simple/visible,/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -689,8 +742,9 @@
 "XK" = (/obj/machinery/atmospherics/unary/outlet_injector{icon_state = "map_injector"; id_tag = "n2_in"; use_power = 1},/turf/simulated/floor/reinforced/nitrogen,/area/ship/icarus/engineering/atmos)
 "XL" = (/obj/machinery/computer/cryopod,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/foyer)
 "XM" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
+"XO" = (/obj/machinery/atmospherics/omni/filter{tag_east = 5; tag_south = 2; tag_west = 1},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "XP" = (/obj/machinery/atmospherics/binary/pump/on{dir = 1; name = "Air to Supply"},/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
-"XU" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
+"XU" = (/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "XY" = (/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/workshop)
 "Ye" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/machinery/atmospherics/pipe/simple/visible/supply,/turf/simulated/floor/plating,/area/space)
 "Yi" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/engineering_eva)
@@ -703,6 +757,7 @@
 "YB" = (/turf/simulated/floor/wood/walnut,/area/space)
 "YE" = (/obj/machinery/floodlight,/turf/simulated/floor/tiled,/area/space)
 "YH" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
+"YL" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/atmospherics/portables_connector{icon_state = "map_connector"; dir = 4},/obj/effect/engine_setup/coolant_canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "YM" = (/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/ship/icarus/engineering/engine_room)
 "YR" = (/obj/effect/floor_decal/techfloor/orange,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/ship/icarus/engineering/superluminal_shunt)
 "YS" = (/obj/machinery/atmospherics/valve/digital{dir = 4; name = "emergency cooling valve"},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
@@ -712,7 +767,7 @@
 "Zx" = (/obj/machinery/port_gen/pacman,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/main_storage)
 "Zy" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/ship/icarus/engineering)
 "ZB" = (/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 6},/turf/simulated/wall/r_wall/prepainted,/area/ship/icarus/engineering/engine_room)
-"ZD" = (/turf/simulated/wall/prepainted,/area/ship/icarus/engineering/engine_room)
+"ZD" = (/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled/techfloor,/area/ship/icarus/engineering/engine_room)
 "ZF" = (/obj/machinery/alarm{dir = 4},/turf/simulated/floor/plating,/area/ship/icarus/engineering/shield_generator)
 "ZI" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled,/area/ship/icarus/crew_quarters/heads/office/ce)
 "ZP" = (/obj/machinery/atmospherics/pipe/simple/visible/universal,/obj/machinery/meter,/turf/simulated/floor/tiled,/area/ship/icarus/engineering/atmos)
@@ -805,38 +860,38 @@ BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQK
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKyvyvyvyvyvngYBYBYBYBYBngddWPbZbZbZngyvyvngngngngngngngngngngngngngyvyvngngngngngyvyvyvYkngngzgzgzgzgngzgzgzgzgzgzgzgzgngngngyvzgyvngzgzgzgngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngyvyvngyvyvyvyvyvLHzzzzLHgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKyvyvyvyvyvngYBYBYBYBYBYBddWPbZbZbZngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngyRyRyRyRyRyRyRyRyRngyvCgyvngngzgzgzgWQzgzgzgzgzgzgngzgzgzgzgzgzgzgngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngyvyvngyvyvyvyvyvLHzzzzLHgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKyvyvQKngngngngnggPngngngddWPbZbZbZngyvyvngyvyvyvyvyvyvyvyvyvyvyvngyvyvyvyRyRyRyRyRyRyRyRyRngzgzgzgzgngzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgngyvyvyvyvyvyvyvyvoWoWoWoWoWoWoWoWoWngngyvngngQkCQCQsIsIQKyvyvyvyvyvLHzzzzLHgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKyvyvQKngYBYBYBYBYBYBYBngddWPWPWPWPngyvyvngngngngngngngngngngngngngyvyvngyRyRyRyRyRyRyRyRyRngzgCgCgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgngyvyvtltltltltltloWIwdPStVHVHMUAooWyvyvyvyvyvQkwowowowolqLHLHLHLHLHLHMsLHLHLHLHBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKyvQKQKngYBYBYBYBYBYBYBngBjngngngngngyvyvnggPgPgPgPgPgPgPgPngyvyvyvyvyvngngngngngngngyRyRyRngzgCgCgzgyvzgzgzgzgzgzgzgzgzgzgngzgzgzgzgzgzgzgngyvyvtlNsrhcVUXrkoWKhKhKhKhKhKhKhoWyvyvyvyvyvQkwowowowoScnznznznznznznznznznzLHlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKyvyvQKngINININININYBYBgPYBYBYBYBYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngULULULULULngyRyRyRngzgzgzgzgyvzgzgzgzgzgzgngyvyvyvngngngzgzgzgngngngyvyvtlYyYyYyYyFfoWCrKhXByBkHKhxnoWyvyvyvyvyvQkwowowowoScnznznznznznznznznznzLHlqBClqBClqBClqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKyvQKQKngINININININYBYBngYBYBYBYBYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngLLLLLLLLLLngyRyRyRngyvngyvngngngngzgzgngngngzgzgzgzgzgzgzgzgzgzgzgngyvyvtlYyfucpCsYyoWDeKhKhKhNuKhaaoWyvyvyvyvyvQkwowowowoScSWSiXoSiSiXoSiSiExpVLHBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgPgPgPQKQKngINININININYBYBngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgngzgzgzgzgzgngzgzgzgzgzgzgzgzgzgzgzgngyvyvtlYyDRPxjqBZoWlmmsoWKroWoWoWoWHCHCHCHCQkQkwowowowoCQiShJjciShJjciSaKjcnXLHBCBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgPgPgPQKQKngngyvyvyvngyRngngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngngngngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgWQzgzgzgzgngyvyvtlWKiwiwfQQweOiUfQXLWEWEtlKAKAKAXYXYHCwowowowowowosIssvkArvMvkmQvMvkXUvMLHlqlqlqlqlqBClqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKngngyRyRyRyRyRyRyRngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngbYbYngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgzgzgzgzgzgzgyvzgzgzgzgzgzgzgzgzgzgzgngyvyvtlycfQfQfQfQfQJjfQsaDIDIesXYXYXYXYXYHCwowowowowowoScbRGJnrGJGJBcGJGJYMSsLHyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKgPgPgPgPngngyRyRyRyRyRyRyRngYBMtMtMtYBngyvyvnggPgPgPgPgPgPgPgPngbYbYngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgngzgzgzgzgzgngzgzgzgzgzgzgzgzgzgzgzgngyvyvtltlesestltlAnJjiTLFaWCJtlXYXYXYXYXYHCQkXsQkwowowoSciSEVxfejEVslejeIGYlRLHyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPgPgPngngngngyRyRyRyRyRnggPgPgPngngngyvngnggPgPngngngngngngngbYngyvngngngbYbYbYngngyRyRyRngngngngngngngngzgzgngngngngYkYkYkngngzgzgzgngngngngyvngyRyRyRyRtlAnJjfQhglhtTtlXYXYXYXYXYHCrNrNZDlUlUlULHIvqIzenXqIzenXqIzenXHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRxWwOJjfQfQmOlOtlXYXYXYXYXYzQrNKbrKXqXqXqrKTrqInzGdCFgRQjCFPdoTHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYbYyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRhsCpQwWttIsbjGtlXYXYXYXYXYHCrNeuZDzzzzzzLHPeQgvFAmhiQqvFhiBnUBHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPgPngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRtltlEpGxxLbefQtlXYXYXYXYXYhchcAUZDsjsjsjLHwPBlBlKCSiTxBlBnBwGkDYgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKgPgPgPgPgPgPbYbYbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRngngyRyRngyRyRyRngngnggPngngngngngngngngngngngngngngngngngngngngFVngngngngngyRngyRyRyRngngtltltltltlWSestlXYXYXYXYXYhcWFhYdNxDwIhwosscnzscqIiSKSLHAuAuZZJFvBcdgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngFVFVFVngddddddddngyRyRyRngngngngaDDJMdGbLxzxzxzxzxzxzxhcmKndxDxDjawfZYnznznzqIiSIbTgdxidSFLHgDgDgDgDgDgDgDgDgDULgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBbBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRYEyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngFVFVFVngngngngddngyRyRyRyRWIyRngDJDJMdGbLxzxynFWcWymokhcxDCBpKOrhwVsZYscnzscqIeoyyDXnEwtFhHagDgDgDBjBjBjBjBjBjBjgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngLLLLyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvPBPBPBPBPBPBPByvyvyvngFVFVFVngddddddddngyRyRyRyRWIyRngJMDJMdGbrIzxomhromomomhcnAtmpPxDjawfZYnzbdvFqGMCyxALKanGBfLHgDgDgDgDgDgDgDgDgDULgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKgPgPgPgPgPgPbYbYbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngLLLLyRyRpGpGngyRyRyRnggPgPgPgPgPngyvyvyvyvyvPBbbbbbbbbbbPByvyvyvngngngngngngngngngngyRyRyRngngngngGVWsXtgVLxsUBSQDZIomomhcxDqgSSxDBehwosnziKDAUpbXqjLHkJAuAuLHgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPgPngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRngngngngngngngyvyvPBPBPBPBbbKoKoKobbPByvyvyvngngyRyRyRyRyRyRyRyRyRyRyRyRLLLLngZFDJMdGbLxsUomhdomomomhchchcdjlUlUlUlUnznznzqInznkBlDOpVnzLHgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYbYyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRngyvyvyvyvyvyvyvyvPBJpJpItbbKoyjKobbPByvyvyvngyRyRyRyRyRyRyRyRyRyRyRyRyRLLLLngDJDJMdGbrIzxomhdomomomzxLxdmTIlUgmLtIyRJnznzSutstXwMqHgnnzHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngngngngngngngngyRyRyRyvyvyvyvyvyvyvyvyvPBJpJpPBbbKoKoKobbPByvyvyvngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngDMDJMdGbLxzxzxHMsUsUzxzxLxLxTIlUhRmMncXfnznzTFYSrpvYjmjUnzHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKngngnggPngngngngngngyRyRyRyRyRngngngngngngngyvngngngngyvyvyvyvngnggPgPgPgPgPgPgPyRyRyRsnsnsnsnsnsnsnsnsnPBItPBPBbbbbbbbbbbPByvyvyvngyRyRyRyRngngngyRngngyRngngngngngyMyMyMGbLxGyWRUnLxLxHbACLxLxTIlUAqAqlUImnznzqInzoDcoGLjUnzHayvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKnggPgPgPgPngyRyRyRyRyRyRyRngngyvyvyvyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPngyRyRyRsnsnxlPmQhPmgSsnsnouououPBJpJpJpJpJpPByvyvyvngngyRyRyRngyRyRyRyRPDyRyRyRngLXJoMKJHyMEbRiRihDueRiRiHjRiKfRigolUXfxTnznznznzqInzoDcoGLjUnzLHyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPPbngyRyRyRyRyRyRyRngyvyvyvyvyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnYRVTrTrTrTxVAdsnouououGoGoGoGoGoGoGoyvyvyvngyRyRyRyRngyRyRyRYEyRyRyRyRngbgbgbgbgUuTILxLxLxGbLxLxJQLxFvJQLxZBoTKSnznznznzTFLGQRcfMMjUnzLHyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPPbPbngQKQKYkQKQKQKQKQKQKQKQKQKyvngVMVMVMVMVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnPmVbgEgEgEKgPmsnouououGoBuBuBuBuBuGoyvyvyvngyRyRyRyRngyRyRyRyRyRyRyRyRngSGiJiJiJpxQeLxtajBMljBtatataQCQCQCBHZBbilURqlUnzTFPUIkWzKQEPpVLHlqlqlqlqlqBClqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPPbngQKYkYkYkYkhZhZhZhZhZhZQKyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnPmVbgEjdgEmDNmNoouououGoBuBuBuBuBuGoyvyvyvngngyRyRyRngyRyRyRyRyRyRyRyRngvnJoYibgUuTIrItamrqZdcOlCWhQSpFzpYRNXGzVlUnzlUnzNJmoayUBnzXfiSLHBCBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPgPngQKYkYkYkYkhZhZhZhZhZhZQKyvngngngngnggPngngngngngngngngyvngngngngngyRyRyRsnPmVbgEgEgEKgPmsnouououGoBuBuBuBuBuGoyvyvyvngyRyRyRyRngngyvyRngngyRyRngngngngCDbgyMTILxjBVRkatOheSVFoSpFzeDNUNUfVlURqlUnzeiLGfekXBwuViSLHBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKQKYkYkYkYkhZhZhZhZhZhZQKyvngddddddnggPnggPgPgPgPgPngyvyvngddddddddyRyRyRsnkkwxXpXpXpdyAdsnouououyfBuBuBuBuBuGoyvyvyvngyRyRyRyRyRyRyRyRcHyvyRyRyRLLLLngnObgUuTILxjBVRbQThpqSyGzfVfVfVSTXAVKLrigaRBwBwBwBwBwQUYHiSLHlqBClqBClqBClqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKYkYkYkYkhZhZhZhZhZhZQKyvngddddddddgPgPgPgPgPgPgPngyvyvngddddddngyRyRyRsnsnxlPmrPPmcOsnsnouououGoBuBuBuBuBuGongiMngngyRyRyRyRngyRyRyRsQyvyRyRyRLLLLngNlPvyMTIrItaysLEmeKYKYmqfVfVfVNUTAUrfVGXlUnznznznzSWpkBlruTUULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKQKQKQKQKQKQKQKYkQKQKyvngddddddnggPnggPgPgPgPgPngyvyvngddngddngyRyRyRsnsnsnhFhFhFsnsnsnoISCoIGoGoGoGoGoGoGoyRyRyRngngyRyRyRbczOyRyRSxngyRyRngngngngyMyMyMtZauQCMmMmDsfVkFTwCYspspUrNUfVfVwmlULHLHLHLHohRDTUTUTUBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBCBCBCBjPDPDPDlqlqyvyvyvyvyvyvyvyvngngngngngngngngngyvngngngyvyvngddngddngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyvyRyRyRcGyvyRyRftyluormwCDZrmgsylQClFlFDsfVfVfVNUfVfVCYUrfVfVwmRQyvyvyvLHcxBpTUgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBClqlqlqPDPDPDPDlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngddngddngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyvyRyRyRoQyvyRyRftNHvoUiylylylipylQCiElvRVxMjTfVasspspwLXMgHgHCvQCyvyvyvLHBpnBUYgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBClqeFyvbYPDPDBjlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngngngngngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyvduzOJUggyvyRyRftNHTVsofvfvkUdEylQCOCOCxdEwRjfVSTIMfVszwmlPQCQCQCQCyvyvLHcxfOUYgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKyvyvQKngYBYBYBYBYBYBYBngddWPWPWPWPngyvyvngngngngngngngngngngngngngyvyvngyRyRyRyRyRyRyRyRyRngzgCgCgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgngyvyvtltltltltltloWIwdPStVHVHMUAooWyvyvyvyvyvQkVtJAwowolqLHLHLHLHLHLHMsLHLHLHLHBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKyvQKQKngYBYBYBYBYBYBYBngBjngngngngngyvyvnggPgPgPgPgPgPgPgPngyvyvyvyvyvngngngngngngngyRyRyRngzgCgCgzgyvzgzgzgzgzgzgzgzgzgzgngzgzgzgzgzgzgzgngyvyvtlNsrhcVUXrkoWKhKhKhKhKhKhKhoWyvyvyvyvyvQkyFpIRzwoScnznznznznznznznznznzLHlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKyvyvQKngINININININYBYBgPYBYBYBYBYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngULULULULULngyRyRyRngzgzgzgzgyvzgzgzgzgzgzgngyvyvyvngngngzgzgzgngngngyvyvtlYyYyYyYyFfoWCrKhXByBkHKhxnoWyvyvyvyvyvQkVtOTwowoScnznznznznznznznznznzLHlqBClqBClqBClqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKyvQKQKngINININININYBYBngYBYBYBYBYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngLLLLLLLLLLngyRyRyRngyvngyvngngngngzgzgngngngzgzgzgzgzgzgzgzgzgzgzgngyvyvtlYyfucpCsYyoWDeKhKhKhNuKhaaoWyvyvyvyvyvQkDAAORzwoScSWSiXoSiSiXoSiSiExpVLHBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgPgPgPQKQKngINININININYBYBngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngyvyvyvyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgngzgzgzgzgzgngzgzgzgzgzgzgzgzgzgzgzgngyvyvtlYyDRPxjqBZoWlmmsoWKroWoWoWoWHCHCHCHCQkQkWMSlzYwoCQiSbjjciSbjjciSaKjcnXLHBCBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgPgPgPQKQKngngyvyvyvngyRngngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngngngngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgWQzgzgzgzgngyvyvtlWKiwiwfQQweOiUfQXLWEWEtlKAKAKAXYXYHCwowoxfmRaTPEdZssvkmQvMvkmQvMvkXUvMLHlqlqlqlqlqBClqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKngngyRyRyRyRyRyRyRngYBMtMtMtYBngyvyvnggPgPgPgPTQTQTQgPngbYbYngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgzgzgzgzgzgzgyvzgzgzgzgzgzgzgzgzgzgzgngyvyvtlycfQfQfQfQfQJjfQsaDIDIesXYXYXYXYXYHCwoqlyqyqHRwoScbRGJnrGJGJnrGJGJYMSsLHyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKgPgPgPgPngngyRyRyRyRyRyRyRngYBMtMtMtYBngyvyvnggPgPgPgPgPgPgPgPngbYbYngyvyvngLLLLLLLLLLngyRyRyRngzgzgzgzgzgngzgzgzgzgzgngzgzgzgzgzgzgzgzgzgzgzgngyvyvtltlesestltlAnJjiTLFaWCJtlXYXYXYXYXYHCQkXsQkwowowoSciSEVslejEVslejeIGYlRncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPgPgPngngngngyRyRyRyRyRnggPgPgPngngngyvngnggPgPngngngngngngngbYngyvngngngbYbYbYngngyRyRyRngngngngngngngngzgzgngngngngYkYkYkngngzgzgzgngngngngyvngyRyRyRyRtlAnJjfQhglhtTtlXYXYXYXYXYHCrNpBlUlUlUlUlUIvqIzeRYqIzeRYqIzenXncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRxWwOJjfQfQmOlOtlXYXYXYXYXYzQrNKbrKXqXqXqrKTrqInzGdCFgRQjCFPdoTncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYbYyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRhsCpQwWttIsbjGtlXYXYXYXYXYHCrNeulUzzzzzzlUPeQgvFAmhiQqvFhiBnUBTUyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPgPngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRtltlEpGxxLbefQtlXYXYXYXYXYhchcAUlUsjsjsjlUwPBlBlKCSiTxBlBnBwfeDYgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKgPgPgPgPgPgPbYbYbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRngngyRyRngyRyRyRngngnggPngngngngngngngngngngngngngngngngngngngngFVngngngngngyRngyRyRyRngngtltltltltlWSestlXYXYXYXYXYhcWFhYdNxDwIhwosBrnzscqIiSKSlUAuAuZZJFvBcdgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngFVFVFVngddddddddngyRyRyRngngngngaDDJMdGbLxzxzxzxzxzxzxhcmKndxDxDjawfZYBrnznzqIiSIbTgdxidSFTUgDgDgDgDgDgDgDgDgDULgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBbBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRYEyRoRoRoRoRoRoRoRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngFVFVFVngngngngddngyRyRyRyRWIyRngDJDJMdGbLxzxynFWcWymokhcxDCBpKOrhwVsZYIpXdRrhxeoyyDXnEwtFhHagDgDgDBjBjBjBjBjBjBjgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgDgPgPgPgPgPgPgPgPbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngLLLLyRyRyRyRngyRyRyRnggPgPgPgPgPngyvyvyvyvyvPBPBPBPBPBPBPByvyvyvngFVFVFVngddddddddngyRyRyRyRWIyRngJMDJMdGbrIzxomhromomomhcnAtmpPxDjawfZYLUbdvFqGMCyxALKanGBfTUgDgDgDgDgDgDgDgDgDULgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKgPgPgPgPgPgPbYbYbYngyRyRyRyRyRyRyRyRyRyRoRoRoRoRoRoRoRyRyRyRyRyRngLLLLyRyRpGpGngyRyRyRnggPgPgPgPgPngyvyvyvyvyvPBbbbbbbbbbbPByvyvyvngngngngngngngngngngyRyRyRngngngngGVWsXtgVLxsUBSQDZIomomhcxDqgSSxDBehwosYLbdBlUpbXqjlUkJAuAuTUgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPgPngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRngngngngngngngyvyvPBPBPBPBbbKoKoKobbPByvyvyvngngyRyRyRyRyRyRyRyRyRyRyRyRLLLLngZFDJMdGbLxsUomhdomomomhchchcdjlUlUlUlUPtnznzqInznkBlDOpVnzTUgDgDgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYbYyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngyRyRyRyRyRyRngyRyRyRngyvyvyvyvyvyvyvyvPBJpJpItbbKoyjKobbPByvyvyvngyRyRyRyRyRyRyRyRyRyRyRyRyRLLLLngDJDJMdGbrIzxomhdomomomzxLxdmTIlUgmLtIyRJnznzSutstXwMqHgnnzTUyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjgDgPgPgPgPgPgPgPgPgPbYngyRyRyRyRyRngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngngngngngngngngyRyRyRyvyvyvyvyvyvyvyvyvPBJpJpPBbbKoKoKobbPByvyvyvngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRngDMDJMdGbLxzxzxHMsUsUzxzxLxLxTIlUhRmMncXfnznzTFYSrpvYjmjUnzncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKngngnggPngngngngngngyRyRyRyRyRngngngngngngngyvngngngngyvyvyvyvngnggPgPgPgPgPgPgPyRyRyRsnsnsnsnsnsnsnsnsnPBItPBPBbbbbbbbbbbPByvyvyvngyRyRyRyRngngngyRngngyRngngngngngyMyMyMGbLxGyWRUnLxLxHbACLxLxTIlUAqAqlUImnznzqInzoDcoGLjUnzncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKnggPgPgPgPngyRyRyRyRyRyRyRngngyvyvyvyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPngyRyRyRsnsnxlPmQhPmgSsnsnouououPBJpJpJpJpJpPByvyvyvngngyRyRyRngyRyRyRyRPDyRyRyRngLXJoMKJHyMEbRiRihDueRiRiHjRiKfRigolUXfxTnznznznzqInzoDcoGLjUnzncyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPPbngyRyRyRyRyRyRyRngyvyvyvyvyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnYRVTrTrTrTxVAdsnouououGoGoGoGoGoGoGoyvyvyvngyRyRyRyRngyRyRyRYEyRyRyRyRngbgbgbgbgUuTILxLxLxGbLxLxJQLxFvJQLxZBoTKSnznznznzTFLGQRcfMMjUnzTUyvyvgDgDgDgDgDgDULULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPPbPbngQKQKYkQKQKQKQKQKQKQKQKQKyvngVMVMVMVMVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnPmVbgEgEgEKgPmsnouououGoBuBuBuBuBuGoyvyvyvngyRyRyRyRngyRyRyRyRyRyRyRyRngSGiJiJiJpxQeLxtajBMljBtatataQCQCQCBHZBbilURqlUnzTFXOIkWzKQEPpVTUlqlqlqlqlqBClqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPPbngQKYkYkYkYkhZhZhZhZhZhZQKyvngVMVMVMngVMVMVMVMVMVMVMnggPgPgPgPgPgPgPyRyRyRsnPmVbgEjdgEmDNmNoouououGoBuBuBuBuBuGoyvyvyvngngyRyRyRngyRyRyRyRyRyRyRyRngvnJoYibgUuTIrItamrqZdcOlCWhQSpFzpYRNXGzVlUnzlUnzNJmoayUBnzXfiSTUBCBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKnggPgPgPgPngQKYkYkYkYkhZhZhZhZhZhZQKyvngngngngnggPngngngngngngngngyvngngngngngyRyRyRsnPmVbgEgEgEKgPmsnouououGoBuBuBuBuBuGoyvyvyvngyRyRyRyRngngyvyRngngyRyRngngngngCDbgyMTILxjBVRkatOheSVFoSpFzeDNUNUfVlURqlUnzeioShKkXBwuViSTUBCBCBCBCBCBClqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKQKYkYkYkYkhZhZhZhZhZhZQKyvngddddddnggPnggPgPgPgPgPngyvyvngddddddddyRyRyRsnkkwxXpXpXpdyAdsnouououyfBuBuBuBuBuGoyvyvyvngyRyRyRyRyRyRyRyRcHyvyRyRyRLLLLngnObgUuTILxjBVRbQThpqSyGzfVfVfVSTXAVKLrigaRBwBwBwBwBwQUYHiSTUlqBClqBClqBClqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKYkYkYkYkhZhZhZhZhZhZQKyvngddddddddgPgPgPgPgPgPgPngyvyvngddddddngyRyRyRsnsnxlPmrPPmcOsnsnouououGoBuBuBuBuBuGongiMngngyRyRyRyRngyRyRyRsQyvyRyRyRLLLLngNlPvyMTIrItaysLEmeKYKYmqfVfVfVNUTAUrfVGXlUPtPtPtZDSWpkhuruTUULBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjQKQKQKQKQKQKQKQKQKQKQKQKQKQKYkQKQKyvngddddddnggPnggPgPgPgPgPngyvyvngddngddngyRyRyRsnsnsnhFhFhFsnsnsnoISCoIGoGoGoGoGoGoGoyRyRyRngngyRyRyRbczOyRyRSxngyRyRngngngngyMyMyMtZauQCMmMmDsfVkFTwCYspspUrNUfVfVwmlUlUlUlUlUohRDTUTUTUBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBCBCBCBjPDPDPDlqlqyvyvyvyvyvyvyvyvngngngngngngngngngyvngngngyvyvngddngddngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyvyRyRyRcGyvyRyRftyluormwCDZrmgsylQClFlFDsfVfVfVNUfVfVCYUrfVfVwmRQyvyvyvlUcxBpTUgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBClqlqlqPDPDPDPDlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngddngddngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRYEyRyRyRyRyRyRyvyRyRyRoQyvyRyRftNHvoUiylylylipylQCiElvRVxMjTfVasspspwLXMgHgHCvQCyvyvyvlUBpnBUYgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBClqeFyvbYPDPDBjlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngngngngngyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyvduzOJUggyvyRyRftNHTVsofvfvkUdEylQCOCOCxdEwRjfVSTIMfVszwmlPQCQCQCQCyvyvlUcxfOUYgDBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqBClqeFyvyvPDPDPDPDPDlqyvyvyvlqlqlqlqlqlqlqlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvngngyvyvngBjBjngyvyvyvngyvyvyvngngngngyvfjfjfjnqnqnqfjfjfjnonongngngngngngyRyRngylSrylylFmpFFmylQCCCCCRGlcfVfVSTIMfVNYwmszUxmlmlQCyvyvTUmATUTUyvsrBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBCBCBCBCBCBCyvPDPDPDPDPDlqyvyvyvlqyRyRyRyRyRyRyRyRlqlqlqlqlqlqlqlqlqyvyvyvyvngzvYBYBYBYBYBzvYBjAjAjAjAjAjAjAzvngyvyvfjjXizjXjXjXOvzwfjdRdRWcNnIUvLWcSzsJnoSzWGIEWGQCQCQCQCQCQCQCQCQCQCYWfVSTOLfVnQZccFVgaVrGQCyvyvULzXyvyvyvjpBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBCBCBCBCBCBCyvPDPDPDPDPDlqyvyvyvlqyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRyRlqyvyvyvyvngzvYBYBYBYBYBzvYBjAjAjAjAjAjAjAzvngyvyvfjjXjXjXjXjXjXsCUlQQcEQQpnQQQQQQQQQQQQQQQQrbdRQCQCNkNkNkQCtUtUtUQCzPfVSTOLfVNYAzgHVgaVrGQCyvyvULzXyvyvyvyvyvyvyvyvyvyvyvyvyvBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
@@ -853,18 +908,18 @@ BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqngngngngtgtgtgtggDtgtgtgtgyvyvyvngbYbYbYbYbYbYbYbYbYbYbYbYbYbYbYbYngwswswswswsngyvyvcQNWsmMWiycQyvyvyvyvyvyvngyvyvYeyvyvQKQCyhJsPsQCZPfVZPQCmVxCWDQCljNgVfQCyvyvlqyvyvyvULyvyvyvyvyvyvyvyvyvyvyvyvyvyvBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqlqlqlqlqgDlqlqlqlqyvyvyvngbYbYbYbYbYngbYbYbYbYngbYbYbYbYbYngwswswswswsngyvyvcQmklVsDlMcQyvyvyvyvyvyvngyvyvYeyvyvQKQCMJMJMJQCajfVWpQCdXdXdXQCetetetQCyvyvlqlqyvlqlqngngngngngngngngQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqgDlqlqlqlqyvyvyvngbYbYoRoRoRbYbYbYbYbYbYoRoRoRbYbYwswswswswswsngyvyvcQukukukukcQyvyvyvyvyvyvngyvyvYeyvyvQKQCQCQCQCQCAQRQuqQCQCQCQCQCQCQCQCQCyvyvlqyvyvyvyvyvngngngngQKQKQKQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqyvyvyvyvbYbYoRoRoRbYbYbYbYbYbYoRoRoRbYbYngyvyvptptGTngyvyvcQcQcQcQcQcQngyvyvyvyvngngngngYengngngyvyvyvyvyvxFyvXxyvyvyvyvyvyvyvyvyvyvyvlqlqyvlqlqyvQKQKQKQKQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqbYbYoRoRoRbYbYbYbYbYbYoRoRoRbYbYngngngngngngngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvASNtNtNtNtNtNtNtrBzMKLwcyvyvyvyvyvyvyvyvyvyvyvnglqyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqbYbYoRoRoRbYPKPKPKPKbYoRoRoRbYbYyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvQKQKlqyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqbYbYbYbYbYbYPKPKPKPKbYbYbYbYbYbYlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvngngngQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvQKQKQKQKQKQKQKQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjPKPKPKPKPKPKPKPKPKPKBjBjBjlqlqlqlqlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjPKPKPKPKPKPKBjBjBjBjBjBjBjBjBjlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjyvyvyvyvyvyvyvyvyvVXyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
-BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqyvyvyvyvbYbYoRoRoRbYbYbYbYbYbYoRoRoRbYbYngyvyvptptGTngyvyvcQcQcQcQcQcQngyvyvyvyvngngngngYengngngyvyvVXhJyvxFyvXxyvyvyvyvyvyvyvyvyvyvyvlqlqyvlqlqyvQKQKQKQKQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqbYbYoRoRoRbYbYbYbYbYbYoRoRoRbYbYngngngngngngngyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvASNtNtNtrBrBNtNtJgzMKLwcyvyvyvyvyvyvyvyvyvyvyvnglqyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqbYbYoRoRoRbYPKPKPKPKbYoRoRoRbYbYyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvyvdryvyvyvyvyvyvyvyvyvyvyvyvyvQKQKlqyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqbYbYbYbYbYbYPKPKPKPKbYbYbYbYbYbYlqyvyvyvyvyvyvyvyvyvyvyvyvngyvyvngngngngngngngngngngyvyvyvyvyvyvCTCTyvyvyvyvyvyvyvyvyvngngngQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKlqyvyvyvyvyvngngngpjpjngngngyvyvngBciKiKBcBciKiKBcngngngiMngngngyvyvyvyvyvyvQKQKQKQKQKQKQKQKBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjPKPKPKPKPKPKPKPKPKPKBjBjBjlqlqlqlqlqlqlqgPgPgPgPebArngngngngBciKiKBcBciKiKBcngvNhJyvVXhJeEyvyvyvyvyvyvlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjPKPKPKPKPKPKBjBjBjBjBjBjBjBjBjlqlqlqIZgPgPgPgPgPngBcBcBcBcBcBcBcBcBcBcBciMyvyvyvyvyvClyvyvyvyvlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjJYwzgPgPgPgPgPkeBciKiKBciKiKBcBcBcBcBcngyvyvyvyvyvClyvlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjJYrcijgPgPgPgPkeBciKiKBciKiKBcBcBcBcBcngFIhZngyvyvngyvlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjJYrcrcpCgPIPgPngBcBcBcBcBcBcBcBcBcBcBcnggFNvngnglqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqngngngngngngngvjvjQxQxngUfUfngngtyNMlqlqlqlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
+BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqlqlqlqlqlqlqlqlqgDgDgDgDlqgDgDlqlqHwnglqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
 BjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjlqBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBjBj
