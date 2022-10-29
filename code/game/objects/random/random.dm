@@ -51,13 +51,29 @@
 	icon_state = ICON_STATE_WORLD
 
 /obj/random/tool/spawn_choices()
-	return list(/obj/item/screwdriver,
-				/obj/item/wirecutters,
-				/obj/item/weldingtool,
-				/obj/item/weldingtool/largetank,
-				/obj/item/crowbar,
-				/obj/item/wrench,
-				/obj/item/flashlight)
+	return list(
+		/obj/item/screwdriver,
+		/obj/item/wirecutters,
+		/obj/item/weldingtool,
+		/obj/item/weldingtool/largetank,
+		/obj/item/crowbar,
+		/obj/item/wrench,
+		/obj/item/flashlight
+	)
+
+/obj/random/tool/power
+	name = "random powertool"
+	desc = "This is a random rare powertool for maintenance"
+	icon_state = "tool_2"
+
+/obj/random/tool/power/spawn_choices()
+	return list(
+		/obj/random/tool =                 320,
+		/obj/item/weldingtool/electric =    15,
+		/obj/item/weldingtool/experimental = 3,
+		/obj/item/hydraulic_cutter =         1,
+		/obj/item/power_drill =              1
+	)
 
 /obj/random/technology_scanner
 	name = "random scanner"
@@ -440,6 +456,7 @@
 	var/vermin_chance = 0.1
 	var/list/locker_vermin = list(
 		/mob/living/simple_animal/mouse,
+		/mob/living/simple_animal/mouse/rat,
 		/mob/living/simple_animal/opossum
 	)
 
@@ -1372,15 +1389,18 @@ var/global/list/random_useful_
 	icon_state = "lipstick_closed"
 
 /obj/random/lipstick/spawn_choices()
-	return list(/obj/item/lipstick,
-				/obj/item/lipstick/blue,
-				/obj/item/lipstick/green,
-				/obj/item/lipstick/turquoise,
-				/obj/item/lipstick/violet,
-				/obj/item/lipstick/yellow,
-				/obj/item/lipstick/orange,
-				/obj/item/lipstick/white,
-				/obj/item/lipstick/black)
+	return list(
+		/obj/item/lipstick,
+		/obj/item/lipstick/blue,
+		/obj/item/lipstick/green,
+		/obj/item/lipstick/turquoise,
+		/obj/item/lipstick/violet,
+		/obj/item/lipstick/yellow,
+		/obj/item/lipstick/orange,
+		/obj/item/lipstick/white,
+		/obj/item/lipstick/black,
+		/obj/item/lipstick/purple
+	)
 
 /obj/random/seaweed
 	name = "random seaweed"
@@ -1415,3 +1435,21 @@ var/global/list/random_useful_
 
 /obj/random/crayon/spawn_choices()
 	return subtypesof(/obj/item/pen/crayon)
+
+/obj/random/umbrella
+	name = "Random Umbrella"
+	desc = "This is a random umbrella."
+	icon = 'icons/obj/items/umbrella.dmi'
+	icon_state = "map"
+	color = COLOR_GRAY20
+
+/obj/random/umbrella/spawn_choices()
+	return list(
+		/obj/item/umbrella,
+		/obj/item/umbrella/blue,
+		/obj/item/umbrella/green,
+		/obj/item/umbrella/red,
+		/obj/item/umbrella/yellow,
+		/obj/item/umbrella/orange,
+		/obj/item/umbrella/purple
+	)
