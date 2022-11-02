@@ -68,7 +68,8 @@
 	//#include "jobs/command.dm"
 	#include "jobs/engineering.dm"
 	//#include "jobs/medical.dm"
-	//#include "jobs/science.dm"
+	#include "jobs/science.dm"
+	#include "jobs/security.dm"
 	//#include "jobs/synthetics.dm"
 
 
@@ -76,7 +77,8 @@
 	//#include "outfits/command.dm"
 	#include "outfits/engineering.dm"
 	//#include "outfits/medical.dm"
-	//#include "outfits/science.dm"
+	#include "outfits/science.dm"
+	#include "outfits/security.dm"
 
 	#define USING_MAP_DATUM /datum/map/icarus
 
