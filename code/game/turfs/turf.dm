@@ -68,6 +68,7 @@
 	else
 		luminosity = 1
 
+	SSambience.queued += src
 
 	if (opacity)
 		has_opaque_atom = TRUE
@@ -159,8 +160,8 @@
 		return THE.OnHandInterception(user)
 
 /turf/attack_robot(var/mob/user)
-	if(Adjacent(user))
-		attack_hand(user)
+	if(CanPhysicallyInteract(user))
+		return attack_hand(user)
 
 /turf/attackby(obj/item/W, mob/user)
 
@@ -427,6 +428,7 @@
 		is_outside = new_outside
 		if(!skip_weather_update)
 			update_weather()
+		SSambience.queued += src
 		return TRUE
 	return FALSE
 
