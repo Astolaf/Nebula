@@ -6,7 +6,7 @@
 	pda_type = /obj/item/modular_computer/pda/science
 
 /decl/hierarchy/outfit/job/science/rd
-	name = "Job - Chief Science Officer"
+	name = "Job - Research Director"
 	l_ear = /obj/item/radio/headset/heads/rd
 	uniform = /obj/item/clothing/under/research_director
 	shoes = /obj/item/clothing/shoes/color/brown
