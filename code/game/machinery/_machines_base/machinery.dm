@@ -325,12 +325,19 @@ Class Procs:
 /obj/machinery/proc/state(var/msg)
 	audible_message(SPAN_NOTICE("[html_icon(src)] [msg]"), null, 2)
 
-/obj/machinery/proc/ping(text=null)
+/obj/machinery/proc/ping(var/text)
 	if (!text)
 		text = "\The [src] pings."
 
 	state(text, "blue")
-	playsound(src.loc, 'sound/machines/ping.ogg', 50, 0)
+	playsound(src.loc, 'sound/machines/ping.ogg', 50, FALSE)
+
+/obj/machinery/proc/buzz(var/text)
+	if (!text)
+		text = "\The [src] buzzes."
+
+	state(SPAN_WARNING(text), "red")
+	playsound(src.loc, 'sound/machines/buzz-sigh.ogg', 50, FALSE)
 
 /obj/machinery/proc/shock(mob/user, prb)
 	if(inoperable())
@@ -402,7 +409,7 @@ Class Procs:
 		var/line = "<span class='notice'>	[C.name]</span>"
 		if(!C.health)
 			line = "<span class='warning'>	[C.name] (destroyed)</span>"
-		else if(C.health < 0.75 * C.max_health)
+		else if(C.get_percent_health() < 75)
 			line = "<span class='notice'>	[C.name] (damaged)</span>"
 		to_chat(user, line)
 	for(var/path in uncreated_component_parts)
